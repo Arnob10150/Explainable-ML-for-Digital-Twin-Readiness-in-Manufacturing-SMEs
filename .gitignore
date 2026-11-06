@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Raw survey workbooks are excluded; follow source dataset terms.
+data/raw/*
+!data/raw/README.md
+
+# Reproducible outputs can be regenerated from the source workbooks.
+data/processed/*
+!data/processed/README.md
+reports/figures/*
+!reports/figures/README.md
+reports/tables/*
+!reports/tables/README.md
